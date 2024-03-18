@@ -6,7 +6,8 @@
       width: 100%;
       margin: 0 0 10px 0;
       break-inside: avoid;
-      ;
+      transition: transform 0.5s ease;
+      transform: rotateY(360deg); 
     }
   }
   
