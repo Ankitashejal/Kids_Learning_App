@@ -11,7 +11,7 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class NumbersPage implements OnInit {
-
+  numbers: any;
   constructor() { }
 
   ngOnInit() {
