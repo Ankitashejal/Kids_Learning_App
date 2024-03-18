@@ -1,13 +1,54 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>Profile</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Profile</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <!-- Profile Picture -->
+  <ion-avatar class="profile-picture">
+    <img src="https://img.freepik.com/premium-photo/cartoon-girl_81048-34631.jpg?size=626&ext=jpg&ga=GA1.1.938742037.1710686839&semt=ais" alt="Profile Picture">
+  </ion-avatar>
+
+  <!-- User Information -->
+  <ion-item>
+    <ion-label>Name:</ion-label>
+    <ion-input type="text" [(ngModel)]="userName"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Age/Grade:</ion-label>
+    <ion-input type="text" [(ngModel)]="userAge"></ion-input>
+  </ion-item>
+
+  <!-- Achievements -->
+  <h2>Achievements</h2>
+  <ion-list>
+    <ion-item *ngFor="let achievement of achievements">
+      {{ achievement }}
+    </ion-item>
+  </ion-list>
+
+  <!-- Favorite Activities -->
+  <h2>Favorite Activities</h2>
+  <ion-list>
+    <ion-item>
+      <ion-label>Favorite Color:</ion-label>
+      <ion-input type="text" [(ngModel)]="favoriteColor"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Favorite Animal Sound:</ion-label>
+      <ion-input type="text" [(ngModel)]="favoriteAnimalSound"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Favorite Shape:</ion-label>
+      <ion-input type="text" [(ngModel)]="favoriteShape"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <!-- Progress Tracking -->
+  <h2>Progress Tracking</h2>
+  <!-- Add progress bars or indicators here -->
+
+  <!-- Edit Profile Button -->
+  <!-- <ion-button expand="block" (click)="editProfile()">Edit Profile</ion-button> -->
 </ion-content>

@@ -11,7 +11,18 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class Tab4Page implements OnInit {
+  userName: string = 'Anki'; 
+  userAge: number = 6; // 
+  favoriteColor: string = 'Red'; 
+  favoriteAnimalSound: string = 'Woof 🐶'; 
+  favoriteShape: string = 'Circle ⭕'; //
 
+  achievements: string[] = [
+    'Color Master', 
+    'Number Ninja', 
+    'Shape Explorer', 
+    'Alphabet Champion'
+  ];
   constructor() { }
 
   ngOnInit() {

@@ -1,0 +1,40 @@
+/* Profile Picture */
+.profile-picture {
+    margin: 20px auto; 
+    width: 150px; /* Increase the width of the profile picture */
+    height: 150px; /* Increase the height of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    overflow: hidden;
+  }
+  
+  /* User Information */
+  ion-item {
+    --ion-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    margin-bottom: 10px;
+  }
+  
+  /* Achievements */
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Dark text color */
+  }
+  
+  ion-list {
+    --ion-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 15px; /* Rounded corners for the list */
+  }
+  
+  /* Favorite Activities */
+  ion-label {
+    font-weight: bold;
+  }
+  
+  /* Edit Profile Button */
+  ion-button {
+    margin-top: 20px;
+    --background: #ff6b6b; /* Playful red background color */
+    --color: #fff; /* White text color */
+    --border-radius: 10px; /* Rounded button corners */
+  }
+  
