@@ -12,12 +12,12 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 })
 export class Tab3Page {
   players: { name: string; score: number }[] = [
-    { name: 'Tom', score: 10 },
-    { name: 'Anna', score: 5 },
-    { name: 'Tae', score: 7 },
-    { name: 'Taylor', score: 5 },
-    { name: 'Joe', score: 4 },
-    { name: 'Suzy', score: 4 },
+    { name: '1.Tom', score: 10 },
+    { name: '2.Anna', score: 5 },
+    { name: '3.Tae', score: 7 },
+    { name: '4.Taylor', score: 5 },
+    { name: '5.Joe', score: 4 },
+    { name: '6.Suzy', score: 4 },
   ];
   constructor() {}
 }

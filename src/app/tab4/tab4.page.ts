@@ -12,17 +12,23 @@ import { IonicModule } from '@ionic/angular';
 })
 export class Tab4Page implements OnInit {
   userName: string = 'Anki'; 
-  userAge: number = 6; // 
-  favoriteColor: string = 'Red'; 
+  userAge: number = 8; // 
+  favoriteColor: string = 'Red 🔴'; 
   favoriteAnimalSound: string = 'Woof 🐶'; 
   favoriteShape: string = 'Circle ⭕'; //
 
   achievements: string[] = [
-    'Color Master', 
-    'Number Ninja', 
-    'Shape Explorer', 
-    'Alphabet Champion'
+    'Color Master 🎓', 
+    'Number Ninja 🎓', 
+    'Shape Explorer 🎓', 
+    'Alphabet Champion 🎓'
   ];
+
+  totalTasks = 10; 
+  completedTasks = 7; 
+  calculateCompletionPercentage(): number {
+    return (this.completedTasks / this.totalTasks) * 100;
+  }
   constructor() { }
 
   ngOnInit() {

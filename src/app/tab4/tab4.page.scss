@@ -1,4 +1,7 @@
-/* Profile Picture */
+
+ion-content {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
 .profile-picture {
     margin: 20px auto; 
     width: 150px; /* Increase the width of the profile picture */
@@ -9,11 +12,11 @@
   
   /* User Information */
   ion-item {
-    --ion-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    --ion-background-color: rgba(242, 158, 158, 0.8); /* Semi-transparent white background */
     margin-bottom: 10px;
   }
   
-  /* Achievements */
+
   h2 {
     margin-top: 20px;
     font-size: 24px;
