@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
+
 @Component({
   selector: 'app-numbers',
   templateUrl: './numbers.page.html',
@@ -11,10 +12,17 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class NumbersPage implements OnInit {
-  numbers: any;
+numbers: any;
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
+
+
+
+
