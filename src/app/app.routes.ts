@@ -21,4 +21,8 @@ export const routes: Routes = [
     path: 'shapes',
     loadComponent: () => import('./shapes/shapes.page').then( m => m.ShapesPage)
   },
+  {
+    path: 'login',
+    loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
+  },
 ];
