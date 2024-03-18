@@ -1,0 +1,7 @@
+{
+  "name": "Kids_Learning_App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
