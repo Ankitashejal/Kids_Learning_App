@@ -14,35 +14,37 @@
   </ion-header>
   <ion-header>
     <ion-toolbar>
-      <ion-title style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> Pick a learning path  🌟</ion-title>
+      <ion-title color="tertiary" style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> Pick a learning path 🌟</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-card color="white">
-    <ion-card-header>
-      <ion-card-title (click)="navigateToNumbersPage()">Numbers</ion-card-title><br>
-      <img src="https://i.ytimg.com/vi/yNU0mamxL3E/maxresdefault.jpg" style="width: 100%; height: auto;"/>
-    </ion-card-header>
-  </ion-card>
-  <ion-card color="white">
-    <ion-card-header>
-      <ion-card-title style="font-style: poppins;">ALPHABETS</ion-card-title><br>
-      <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/OIP.4Q25rn2uoCfctsoa2q9oTgAAAA?rs=1&pid=ImgDetMain" style="width: 400px; height: 130px;"/>
+  <ion-card color="tertiary">
+    <ion-card-header style="padding: 0%"  (click)="navigateToNumbersPage()">
+      <ion-card-title class="ion-margin">
+      NUMBERS
+      </ion-card-title><br>
+      <ion-img src="../../assets/images/123.png" style="width: 100%; height: auto;"/>
     </ion-card-header>
   </ion-card>
   <ion-card color="tertiary">
     <ion-card-header>
-      <ion-card-title>SHAPES</ion-card-title>
+      <ion-card-title (click)="navigateToAlphabetsPage()" style="font-style: poppins;">ALPHABETS</ion-card-title><br>
+      <img alt="Silhouette of mountains" src="../../assets/images/abc.png" style="width: 400px; height: 130px;"/>
+    </ion-card-header>
+  </ion-card>
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-title (click)="navigateToShapesPage()">SHAPES</ion-card-title>
       <img src="https://i.ytimg.com/vi/FOPU_zURkU8/maxresdefault.jpg">
     </ion-card-header>
   </ion-card>
 
-  <ion-card color="warning">
+  <!-- <ion-card color="warning">
     <ion-card-header>
       <ion-card-title>Card Title</ion-card-title>
       <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
     </ion-card-header>
     <ion-card-content> Card Content </ion-card-content>
-  </ion-card>
+  </ion-card> -->
 
   
  

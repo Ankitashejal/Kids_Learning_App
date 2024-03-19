@@ -19,5 +19,6 @@ export class Tab3Page {
     { name: '5.Joe', score: 4 },
     { name: '6.Suzy', score: 4 },
   ];
+  
   constructor() {}
 }
