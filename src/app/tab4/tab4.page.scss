@@ -4,15 +4,15 @@ ion-content {
   }
 .profile-picture {
     margin: 20px auto; 
-    width: 150px; /* Increase the width of the profile picture */
-    height: 150px; /* Increase the height of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
     overflow: hidden;
   }
   
-  /* User Information */
+ 
   ion-item {
-    --ion-background-color: rgba(242, 158, 158, 0.8); /* Semi-transparent white background */
+    --ion-background-color: rgba(242, 158, 158, 0.8); 
     margin-bottom: 10px;
   }
   
@@ -20,24 +20,24 @@ ion-content {
   h2 {
     margin-top: 20px;
     font-size: 24px;
-    color: #333; /* Dark text color */
+    color: #333; 
   }
   
   ion-list {
-    --ion-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border-radius: 15px; /* Rounded corners for the list */
+    --ion-background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
   }
   
-  /* Favorite Activities */
+ 
   ion-label {
     font-weight: bold;
   }
   
-  /* Edit Profile Button */
+
   ion-button {
     margin-top: 20px;
-    --background: #ff6b6b; /* Playful red background color */
-    --color: #fff; /* White text color */
-    --border-radius: 10px; /* Rounded button corners */
+    --background: #ff6b6b;
+    --color: #fff; 
+    --border-radius: 10px; 
   }
   

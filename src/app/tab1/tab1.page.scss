@@ -1,11 +1,11 @@
-/* Global Styles */
+
 ion-content {
     --background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);/* Light background color */
   }
   
-  /* Card Styles */
+
   ion-card {
-    margin-bottom: 20px; /* Spacing between cards */
+    margin-bottom: 20px;
     border-radius: 15px; /* Rounded corners for cards */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
   }
