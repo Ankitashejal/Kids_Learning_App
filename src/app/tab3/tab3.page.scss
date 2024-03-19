@@ -22,7 +22,32 @@
       margin-bottom: 70px;
     
     }
-  
+    
+      .leaderboard-header {
+        ion-toolbar {
+          background-color: #3880ff; /* Background color of the header */
+          height: 150px; /* Adjust the height as needed */
+          position: relative;
+          overflow: hidden;
+        }
+      
+        .header-shape {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #3880ff; /* Background color of the shape, same as header */
+          clip-path: polygon(0% 100%, 50% 0%, 100% 100%); /* Create a half-crescent shape */
+        }
+      
+        ion-title {
+          color: white; /* Text color of the title */
+          z-index: 1; /* Ensure title is above the shape */
+        }
+      }
+      
+    }
     .leaderboard-item {
       --background: none;
       --border-style: none;
@@ -41,5 +66,6 @@
         background-color: rgb(51, 49, 49);
       }
     }
-  }
+  
+    
   

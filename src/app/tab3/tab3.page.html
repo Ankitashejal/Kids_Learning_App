@@ -7,6 +7,11 @@
 <ion-content class="leaderboard-page">
   <div class="background"></div>
   <ion-list lines="full" class="leaderboard-list">
+    <ion-header class="leaderboard-header">
+      <ion-toolbar>
+        <ion-title>Leader Board</ion-title>
+      </ion-toolbar>
+    </ion-header>
     <ion-item *ngFor="let player of players" class="leaderboard-item">
       <ion-avatar slot="start">
         <img src="https://th.bing.com/th/id/OIP.WliSPBi-erj-ntxEVn9VeAHaHa?pid=ImgDet&w=179&h=179&c=7&dpr=1.3" alt="Avatar">
